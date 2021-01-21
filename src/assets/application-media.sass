@@ -1,0 +1,25 @@
+@media (max-width: 840px)
+  .crypto-form
+    .currency-wrapper
+      >div
+      +flex-direction(column)
+      >img
+        +align-self(flex-end)
+        transform: rotate(90deg)
+        margin: 16px 0
+
+@media (max-width: 700px)
+  .crypto-form
+    .approval-wrapper
+      margin-top: 48px
+      +flex-direction(column)
+      label
+        margin-right: 0
+      input
+        box-sizing: border-box
+      div
+        width: 100%
+        margin-top: 16px
+        button
+          width: 100%
+
